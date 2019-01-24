@@ -1,5 +1,6 @@
 # Yelp_Challenge
-Yelp sentiment analysis challenge
+nlp project for Yelp challenge
+**data explaination** https://www.yelp.com/dataset/documentation/main
 
 
 ### Data Loading, Transformation and Feature Extraction:
