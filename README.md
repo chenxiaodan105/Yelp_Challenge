@@ -1,13 +1,9 @@
 # Yelp_Challenge
-Yelp recommendation challenge
+Yelp sentiment analysis challenge
 
 
 ### Data Loading, Transformation and Feature Extraction:
-1. Load and transform raw Yelp data challenge datasets into Pandas dataframe. Clean data and join different data sets.
-2. Use tokenization with stemming and lemmatization to convert user review data to vector space for Natural Language Processing study.
-
+• Loaded and transformed raw Yelp challenge json data(1.8 GB) on EC2, including data cleaning, tokenization, removing stop words, stemming and lemmatization, converting reviews to tf-idf vector space, defining the label as the user ratings 
 ### Modeling and Data Product:
-1. Define the successfulness of a business entity by their rating, and build a Logistic Regression model to make predictions based on user tips and reviews.
-2. Use unsupervised learning to cluster users into groups. Identify and understand the common user preference within each of the group by inspecting the cluster centroid.
-3. Using collaborative filtering to build a restaurant recommender based on user's past visits and ratings.
+• Implemented and trained Naïve Bayes model for sentiment analysis to predict a user would like a local business or not, finally achieved AUC of 85%
 
